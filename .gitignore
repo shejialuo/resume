@@ -38,6 +38,7 @@
 
 *.dvi
 *.ps
+*.xdv
 
 ############################################
 # do not upload secret infomation

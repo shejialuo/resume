@@ -13,48 +13,71 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{佘嘉洛}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
+  \email{shejialuo@gmail.com} \textperiodcentered\
+  \phone{(+86) 13019582712} \textperiodcentered\
+  \github[shejialuo]{https://www.github.com/shejialuo}
+}
+
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
+\datedsubsection{\textbf{西安电子科技大学}，西安，陕西}{2021 -- 至今}
+\textit{在读硕士研究生}\ 软件工程，预计2024年6月毕业
+\datedsubsection{\textbf{重庆交通大学}, 重庆}{2017 -- 2021}
 \textit{学士}\ 通信工程
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{编程语言：}C++ == C > Haskell > Go == Js == Python > Java == Scala
+  \item \textbf{平台：}熟悉Linux系统，基础的shell脚本及python编程，能使用基本的运维工具docker，k8s，istio。
+  \item \textbf{体系结构：}了解基本的分布式系统与并行计算。
+  \item \textbf{函数式：}了解基本的函数式编程语言，掌握函数式编程思维。
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\section{\faUsers\ 项目经历}
+
+\datedsubsection{\textbf{嵌入式系统分布式集群管理技术}}{2021年9月 -- 2022年12月}
+\role{C++，项目主负责人}{西安航空工业计算所合作项目}
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+针对航空计算机，提供边车注入、服务发现及负载均衡等分布式集群管理技术。
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 模仿k8s，利用准入控制器概念实现自动边车注入。
+  \item 实现基于轮询和地域的负载均衡算法及基于阈值的弹性伸缩算法。
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
+\datedsubsection{\textbf{CS144：实现TCP/IP协议栈}}{2022年6月 -- 2022年10月}
+\role{C++，Linux}{个人项目}
 \begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+实现基本的TCP/IP协议栈，https://github.com/shejialuo/CS144
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 基于RingBuffer的思想实现字节流的重排。
+  \item 实现了除拥塞控制外的基础功能的TCP/IP协议。
+  \item 通过英文实现了撰写思路：https://luolibrary.com/categories/CS144/
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{ugit-cpp: 实现一个简易的git}}{2022年4月 -- 2022年10月}
+\role{C++，Linux}{个人项目}
+\begin{onehalfspacing}
+简易的git实现，https://github.com/shejialuo/ugit-cpp
+\begin{itemize}
+  \item 模仿git基于Content-hash存储blob，tree及commit。
+  \item 实现了分支，标签等除远程外的基本功能。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{CS149: 并行计算}}{2022年5月 -- 2022年12月}
+\role{C++，CUDA，openMP}{个人项目}
+\begin{onehalfspacing}
+并行计算，https://github.com/shejialuo/CS149-fall21
+\begin{itemize}
+  \item 使用C++实现一个能解析任务依赖关系的任务执行库。
+  \item 使用CUDA进行并行渲染。
+  \item 使用openMP实现大图的广度优先搜索算法。
+  \item 通过英文实现了撰写思路：https://luolibrary.com/categories/CS149/
 \end{itemize}
 \end{onehalfspacing}
 
@@ -65,24 +88,34 @@ xxx后端开发
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ IT 技能}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
-\end{itemize}
+\section{\faBook\ 技术文章}
+
+\datedsubsection{\textbf{Database Systems Complete book solutions}}{2021年12月 -- 至今}
+\begin{onehalfspacing}
+https://github.com/shejialuo/database-systems-complete-book-solutions
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{Kubernetes client-go 源码解析——WorkQueue}}{}
+\begin{onehalfspacing}
+https://luolibrary.com/2022/11/14/Kubernetes-client-go-源码解析——WorkQueue
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{ZStack OSAL分析}}{}
+\begin{onehalfspacing}
+https://luolibrary.com/2021/03/06/ZStack-OSAL分析
+\end{onehalfspacing}
 
 \section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
+\datedline{四川省普通高中优秀学生干部}{2017年3月}
+\datedline{\textit{本科组二等奖}, 高教社杯全国大学生数学建模竞赛}{2019年11月}
+\datedline{本科生国家奖学金}{2020年12月}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 技术博客: https://luolibrary.com
+  \item GitHub: https://github.com/shejialuo
+  \item 语言: 英语 - 熟练(6级-551分)
 \end{itemize}
 
 %% Reference
